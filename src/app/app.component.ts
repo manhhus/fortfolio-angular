@@ -6,6 +6,7 @@ import { FooterComponent } from './portfolio-website/footer/footer.component';
 import { HomeComponent } from './portfolio-website/home/home.component';
 import { NavbarComponent } from './portfolio-website/navbar/navbar.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,

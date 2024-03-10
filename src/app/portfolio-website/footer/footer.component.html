@@ -1,1 +1,10 @@
-<p>footer works!</p>
+<footer class="footer">
+    <div class="footer-links">
+        <a (click)="onHome()">Home</a>
+        <a (click)="onAbout()">About</a>
+        <a (click)="onContact()">Contact</a>
+        <a [href]="linkedLink" target="_blank">Linkedin</a>
+        <a [href]="'mailto:' + emailAddress">Email</a>
+    </div>
+<p>&copy;2024 ManhTV.All rights reserved</p>
+</footer>

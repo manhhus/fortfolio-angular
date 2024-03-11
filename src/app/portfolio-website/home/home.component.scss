@@ -1,108 +1,108 @@
+.home-container {
+  text-align: center;
+  padding: 5%;
+  background-color: #c1ecff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Lobster", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.example-card {
+  max-width: 300px;
+  transition: transform 0.6s ease;
+  margin: 20px;
+}
+
+.example-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; 
+  justify-content: center;
+}
+
+.education-container {
+  width: 100%; 
+  text-align: center;
+}
+
+.text-container {
+  flex: 1; 
+  padding: 0 60px; 
+  max-width: 400px; 
+}
+
+.thumb-container {
+  flex: 1; 
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 20px; 
+}
+
+.thumb-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.align-items-center{
+  text-align: center;
+  justify-content: center;
+}
+
+.text-container h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.text-container p {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: left;
+}
+
+button {
+  background-color: #6b08a6;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
   .home-container {
-    text-align: center;
-    padding: 50px;
-    background-color: #c1ecff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
-    font-weight: 400;
-    font-style:normal; 
-  }
-
-  
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #333;
+    padding: 3%;
   }
   
-  p {
-    font-size: 1.2em;
-    color: #555;
-  }
-  
-  .card-container {
-    display: flex;
-    justify-content: space-around;
-    font-family: "Lobster", sans-serif;
-    font-weight: 500;
-    font-style:normal;  
-    }
-  
-  .example-card {
-    max-width: 300px !important;;
-    transition: transform 0.6s ease !important;; /* Add transition for smooth effect */
-  }
-  .example-card:hover {
-    transform: scale(1.05) !important;; /* Zoom out effect on hover */
-    cursor: pointer !important;;
-  }
-  
-  .example-header-image {
-    background-image: url('https://via.placeholder.com/40');
-    background-size: cover;
-  }
-  
-  /* Adjust this section for the main content */
-  .main-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .thumb-container {
-    overflow: hidden;
-    border-radius: 20px; /* Adjust the border-radius as needed */
+    border-radius: 10px;
   }
-
-  .thumb-image {
-    width: 600px; /* Adjust the width as needed to make it square */
-    height: 300px; /* Adjust the height as needed to make it square */
-    object-fit: cover;
-  }
-  .image-container {
-    flex: 1;
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    border-radius: 10px; /* Optional: Add border-radius to the image */
-  }
-  
-  .text-container {
-    flex: 2;
-    padding: 0 20px;
-    
-  }
-  
-  .text-container h1 {
-    font-size: 2.5em;
-    color: #333;
-  }
-  
-  .text-container p {
-    font-size: 1.2em;
-    color: #555;
-    text-align: left;
-  }
-  
-
-  .profile-image {
-    width: 300px;
-    height: 300px;
-  }
-
-  .align-items-center{
-    justify-content: center;
-    text-align: center;
-  }
-
-  button {
-    background-color: #6b08a6;
-    color: white;
-    margin-top: 10px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
+}

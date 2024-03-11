@@ -25,6 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-![image](https://github.com/manhhus/java-spring-boot/assets/87703798/3584efc4-1c54-4137-8c7f-d543ce8b314a)
+![image](https://github.com/manhhus/fortfolio-angular/assets/87703798/178a03ec-b02d-404f-a467-5b9b3c5c9d2f)
+![image](https://github.com/manhhus/fortfolio-angular/assets/87703798/33aa17e6-67f6-4f20-853e-b6ec7918c48f)
 ![image](https://github.com/manhhus/java-spring-boot/assets/87703798/be4f5e91-7696-4930-8c57-d060a798e429)
 ![image](https://github.com/manhhus/java-spring-boot/assets/87703798/4093dfaa-8873-4c85-83e3-c3d2e1792b64)
